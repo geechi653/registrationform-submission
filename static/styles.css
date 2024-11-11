@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Merriweather', 'Arial', sans-serif;
+    min-height: 100vh;
+    display:flex;
+    background-color: rgb(172, 137, 137);
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1100px;
+    background-color: white;
+    box-shadow: 0 11px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.leftside {
+    width: 40%;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.rightside {
+    width: 60%;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 124px;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    margin: 20px 0;
+    color: darkolivegreen;
+    word-spacing: 2px;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.name-container {
+    display: flex;
+    width: 100%;
+    justify-content: stretch;
+    gap:20px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: darkslategrey;
+}
+
+.input-field input {
+    width: 100%;
+    padding:8px;
+    border: 3px solid rgba(0, 0, 0,0.1);
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.checkbox-field {
+    margin: 20px 0;
+}
+
+a {
+    color: rgb(134, 12, 134);
+}
+
+/* .checkbox-field a {
+    text-decoration: none;
+} */
+
+button:hover {
+    background: #017272;
+}
+
+
+    /* looks awful don't uncomment :D */
+
+/* .leftside, .rightside {
+    padding: 240px;
+} */
