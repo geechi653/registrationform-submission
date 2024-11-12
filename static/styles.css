@@ -15,9 +15,7 @@ main {
 
 .container {
     display: flex;
-    width: 90%;
-    max-width: 1100px;
-    background-color: white;
+    max-width: 50%;
     box-shadow: 0 11px 15px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
     overflow: hidden;
@@ -62,10 +60,16 @@ h1 {
 
 .name-container {
     display: flex;
+    gap: 20px;
     width: 100%;
-    justify-content: stretch;
-    gap:20px;
 }
+
+.name-container .input-field {
+    flex: 1; 
+    width: 50%; 
+}
+
+
 
 .input-field {
     margin-bottom: 20px;
@@ -83,6 +87,10 @@ h1 {
     border: 3px solid rgba(0, 0, 0,0.1);
     border-radius: 6px;
     font-size: 14px;
+}
+
+#name {
+    size: 100%;
 }
 
 .checkbox-field {
